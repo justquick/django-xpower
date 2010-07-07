@@ -30,7 +30,7 @@ In your settings you may define the contents of the ``X-Powered-By`` header::
 
     X_POWERED_BY = 'Django'
     
-If you do not set this it will use the default which is ``'Django/%(version)s``
+If you do not set this it will use the default which is ``Django/%(version)s``
 where ``%(version)s`` is replaced with the version of Django that you are using.
 
 Testing
